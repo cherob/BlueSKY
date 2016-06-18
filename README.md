@@ -1,4 +1,4 @@
-# BlueSKY
+# BlueSky
 Wir sind BlueSky und wir stehen für Nachhaltigkeit
 bei Jugend Hackt Ost 2016. Mit unseren Projekt
 wollen wir auf die Luftverschmutzung in den städtischen
