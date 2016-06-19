@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		076BEE5F167EC67300ACF08A /* PVMapOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076BEE5E167EC67200ACF08A /* PVMapOptionsViewController.m */; };
+		07866AB3165EE2B400D7BB3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07866AB2165EE2B400D7BB3A /* UIKit.framework */; };
+		07866AB5165EE2B400D7BB3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07866AB4165EE2B400D7BB3A /* Foundation.framework */; };
+		07866AB7165EE2B400D7BB3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07866AB6165EE2B400D7BB3A /* CoreGraphics.framework */; };
+		07866ABD165EE2B400D7BB3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07866ABB165EE2B400D7BB3A /* InfoPlist.strings */; };
+		07866ABF165EE2B400D7BB3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07866ABE165EE2B400D7BB3A /* main.m */; };
+		07866AC3165EE2B400D7BB3A /* PVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07866AC2165EE2B400D7BB3A /* PVAppDelegate.m */; };
+		07866ACF165EE2B400D7BB3A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07866ACD165EE2B400D7BB3A /* MainStoryboard_iPad.storyboard */; };
+		07866ADB165EE2B400D7BB3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07866AB2165EE2B400D7BB3A /* UIKit.framework */; };
+		07866ADC165EE2B400D7BB3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07866AB4165EE2B400D7BB3A /* Foundation.framework */; };
+		07866AE4165EE2B400D7BB3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07866AE2165EE2B400D7BB3A /* InfoPlist.strings */; };
+		07866AE7165EE2B400D7BB3A /* Park_ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07866AE6165EE2B400D7BB3A /* Park_ViewTests.m */; };
+		07A2E1DF167988AA00355A96 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A2E1DE167988AA00355A96 /* CoreLocation.framework */; };
+		07A98C031663F4E400D49A7A /* PVParkMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A98C021663F4E400D49A7A /* PVParkMapViewController.m */; };
+		186DF3291D154703008BFE35 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 186DF3281D154703008BFE35 /* menu.png */; };
+		186DF32C1D1548C8008BFE35 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186DF32A1D1548C8008BFE35 /* MainStoryboard_iPhone.storyboard */; };
+		186DF32E1D1564E4008BFE35 /* mapButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 186DF32D1D1564E4008BFE35 /* mapButton.png */; };
+		186DF3301D156A37008BFE35 /* stationButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 186DF32F1D156A37008BFE35 /* stationButton.png */; };
+		186DF3321D15814D008BFE35 /* weButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 186DF3311D15814D008BFE35 /* weButton.png */; };
+		186DF3341D15839E008BFE35 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 186DF3331D15839E008BFE35 /* icon.png */; };
+		186DF3361D158D8E008BFE35 /* positionButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 186DF3351D158D8E008BFE35 /* positionButton.png */; };
+		186DF33A1D15CB2C008BFE35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186DF3391D15CB2C008BFE35 /* Images.xcassets */; };
+		186DF33C1D15D199008BFE35 /* statusButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 186DF33B1D15D199008BFE35 /* statusButton.png */; };
+		186DF33E1D15DA6F008BFE35 /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = 186DF33D1D15DA6F008BFE35 /* Title.png */; };
+		186DF3401D15E1A9008BFE35 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 186DF33F1D15E1A9008BFE35 /* AppIcon.appiconset */; };
+		186DF3421D15EC25008BFE35 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186DF3411D15EC25008BFE35 /* Icon-Small@2x.png */; };
+		186DF3441D1607C6008BFE35 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 186DF3431D1607C6008BFE35 /* arrow.png */; };
+		186DF3461D160A55008BFE35 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186DF3451D160A55008BFE35 /* Launch Screen.storyboard */; };
+		D3CE500D195317350032F059 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CE500C195317350032F059 /* MapKit.framework */; };
+		D3D60AD719531B1100BED91B /* PVPark.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D60AD619531B1100BED91B /* PVPark.m */; };
+		D3D60ADA19531EB800BED91B /* PVParkMapOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D60AD919531EB800BED91B /* PVParkMapOverlay.m */; };
+		D3D60ADD19531EE800BED91B /* PVParkMapOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D60ADC19531EE800BED91B /* PVParkMapOverlayView.m */; };
+		D3D60AE41953274900BED91B /* PVAttractionAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D60AE31953274900BED91B /* PVAttractionAnnotation.m */; };
+		D3D60AEB1953281800BED91B /* CoordSize.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3D60AE91953281800BED91B /* CoordSize.plist */; };
+		D3D60AFF195328E900BED91B /* PVAttractionAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D60AFE195328E900BED91B /* PVAttractionAnnotationView.m */; };
+		D3D60B0A19532D9400BED91B /* PVCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D60B0919532D9400BED91B /* PVCharacter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07866ADD165EE2B400D7BB3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07866AA5165EE2B400D7BB3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07866AAD165EE2B400D7BB3A;
+			remoteInfo = "Park View";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		076BEE5D167EC67100ACF08A /* PVMapOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVMapOptionsViewController.h; sourceTree = "<group>"; };
+		076BEE5E167EC67200ACF08A /* PVMapOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVMapOptionsViewController.m; sourceTree = "<group>"; };
+		07866AAE165EE2B400D7BB3A /* Park View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Park View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07866AB2165EE2B400D7BB3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07866AB4165EE2B400D7BB3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07866AB6165EE2B400D7BB3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07866ABA165EE2B400D7BB3A /* Park View-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Park View-Info.plist"; sourceTree = "<group>"; };
+		07866ABC165EE2B400D7BB3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07866ABE165EE2B400D7BB3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07866AC0165EE2B400D7BB3A /* Park View-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Park View-Prefix.pch"; sourceTree = "<group>"; };
+		07866AC1165EE2B400D7BB3A /* PVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVAppDelegate.h; sourceTree = "<group>"; };
+		07866AC2165EE2B400D7BB3A /* PVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVAppDelegate.m; sourceTree = "<group>"; };
+		07866ACE165EE2B400D7BB3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		07866AD8165EE2B400D7BB3A /* Park View.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Park View.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07866AE1165EE2B400D7BB3A /* Park ViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Park ViewTests-Info.plist"; sourceTree = "<group>"; };
+		07866AE3165EE2B400D7BB3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07866AE5165EE2B400D7BB3A /* Park_ViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Park_ViewTests.h; sourceTree = "<group>"; };
+		07866AE6165EE2B400D7BB3A /* Park_ViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Park_ViewTests.m; sourceTree = "<group>"; };
+		07A2E1DE167988AA00355A96 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		07A98C011663F4E400D49A7A /* PVParkMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVParkMapViewController.h; sourceTree = "<group>"; };
+		07A98C021663F4E400D49A7A /* PVParkMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVParkMapViewController.m; sourceTree = "<group>"; };
+		186DF3281D154703008BFE35 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		186DF32B1D1548C8008BFE35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		186DF32D1D1564E4008BFE35 /* mapButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapButton.png; sourceTree = "<group>"; };
+		186DF32F1D156A37008BFE35 /* stationButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stationButton.png; sourceTree = "<group>"; };
+		186DF3311D15814D008BFE35 /* weButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weButton.png; sourceTree = "<group>"; };
+		186DF3331D15839E008BFE35 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		186DF3351D158D8E008BFE35 /* positionButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = positionButton.png; sourceTree = "<group>"; };
+		186DF3391D15CB2C008BFE35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		186DF33B1D15D199008BFE35 /* statusButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusButton.png; sourceTree = "<group>"; };
+		186DF33D1D15DA6F008BFE35 /* Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title.png; sourceTree = "<group>"; };
+		186DF33F1D15E1A9008BFE35 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		186DF3411D15EC25008BFE35 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "AppIcon.appiconset/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		186DF3431D1607C6008BFE35 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		186DF3451D160A55008BFE35 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D3CE500C195317350032F059 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D3D60AD519531B1100BED91B /* PVPark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVPark.h; sourceTree = "<group>"; };
+		D3D60AD619531B1100BED91B /* PVPark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVPark.m; sourceTree = "<group>"; };
+		D3D60AD819531EB800BED91B /* PVParkMapOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVParkMapOverlay.h; sourceTree = "<group>"; };
+		D3D60AD919531EB800BED91B /* PVParkMapOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVParkMapOverlay.m; sourceTree = "<group>"; };
+		D3D60ADB19531EE800BED91B /* PVParkMapOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVParkMapOverlayView.h; sourceTree = "<group>"; };
+		D3D60ADC19531EE800BED91B /* PVParkMapOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVParkMapOverlayView.m; sourceTree = "<group>"; };
+		D3D60AE21953274900BED91B /* PVAttractionAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVAttractionAnnotation.h; sourceTree = "<group>"; };
+		D3D60AE31953274900BED91B /* PVAttractionAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVAttractionAnnotation.m; sourceTree = "<group>"; };
+		D3D60AE91953281800BED91B /* CoordSize.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CoordSize.plist; sourceTree = "<group>"; };
+		D3D60AFD195328E900BED91B /* PVAttractionAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVAttractionAnnotationView.h; sourceTree = "<group>"; };
+		D3D60AFE195328E900BED91B /* PVAttractionAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVAttractionAnnotationView.m; sourceTree = "<group>"; };
+		D3D60B0819532D9400BED91B /* PVCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVCharacter.h; sourceTree = "<group>"; };
+		D3D60B0919532D9400BED91B /* PVCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVCharacter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07866AAB165EE2B400D7BB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CE500D195317350032F059 /* MapKit.framework in Frameworks */,
+				07A2E1DF167988AA00355A96 /* CoreLocation.framework in Frameworks */,
+				07866AB3165EE2B400D7BB3A /* UIKit.framework in Frameworks */,
+				07866AB5165EE2B400D7BB3A /* Foundation.framework in Frameworks */,
+				07866AB7165EE2B400D7BB3A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07866AD4165EE2B400D7BB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07866ADB165EE2B400D7BB3A /* UIKit.framework in Frameworks */,
+				07866ADC165EE2B400D7BB3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		076BF08D1680457B00ACF08A /* Coord Information */ = {
+			isa = PBXGroup;
+			children = (
+				D3D60AE91953281800BED91B /* CoordSize.plist */,
+			);
+			name = "Coord Information";
+			sourceTree = "<group>";
+		};
+		076BF0901680459E00ACF08A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3D60AD519531B1100BED91B /* PVPark.h */,
+				D3D60AD619531B1100BED91B /* PVPark.m */,
+				D3D60B0819532D9400BED91B /* PVCharacter.h */,
+				D3D60B0919532D9400BED91B /* PVCharacter.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		076BF091168045BF00ACF08A /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				D3D60AE21953274900BED91B /* PVAttractionAnnotation.h */,
+				D3D60AE31953274900BED91B /* PVAttractionAnnotation.m */,
+				D3D60AFD195328E900BED91B /* PVAttractionAnnotationView.h */,
+				D3D60AFE195328E900BED91B /* PVAttractionAnnotationView.m */,
+			);
+			name = Annotations;
+			sourceTree = "<group>";
+		};
+		076BF092168045C900ACF08A /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				D3D60AD819531EB800BED91B /* PVParkMapOverlay.h */,
+				D3D60AD919531EB800BED91B /* PVParkMapOverlay.m */,
+				D3D60ADB19531EE800BED91B /* PVParkMapOverlayView.h */,
+				D3D60ADC19531EE800BED91B /* PVParkMapOverlayView.m */,
+			);
+			name = Overlays;
+			sourceTree = "<group>";
+		};
+		076BF093168045DE00ACF08A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				186DF32A1D1548C8008BFE35 /* MainStoryboard_iPhone.storyboard */,
+				07866ACD165EE2B400D7BB3A /* MainStoryboard_iPad.storyboard */,
+				186DF3451D160A55008BFE35 /* Launch Screen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		07866AA3165EE2B400D7BB3A = {
+			isa = PBXGroup;
+			children = (
+				07866AB8165EE2B400D7BB3A /* Park View */,
+				07866ADF165EE2B400D7BB3A /* Park ViewTests */,
+				07866AB1165EE2B400D7BB3A /* Frameworks */,
+				07866AAF165EE2B400D7BB3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07866AAF165EE2B400D7BB3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07866AAE165EE2B400D7BB3A /* Park View.app */,
+				07866AD8165EE2B400D7BB3A /* Park View.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07866AB1165EE2B400D7BB3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3CE500C195317350032F059 /* MapKit.framework */,
+				07A2E1DE167988AA00355A96 /* CoreLocation.framework */,
+				07866AB2165EE2B400D7BB3A /* UIKit.framework */,
+				07866AB4165EE2B400D7BB3A /* Foundation.framework */,
+				07866AB6165EE2B400D7BB3A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07866AB8165EE2B400D7BB3A /* Park View */ = {
+			isa = PBXGroup;
+			children = (
+				076BF08D1680457B00ACF08A /* Coord Information */,
+				076BF0901680459E00ACF08A /* Models */,
+				076BF092168045C900ACF08A /* Overlays */,
+				076BF091168045BF00ACF08A /* Annotations */,
+				076BF093168045DE00ACF08A /* Storyboards */,
+				07A98C011663F4E400D49A7A /* PVParkMapViewController.h */,
+				07A98C021663F4E400D49A7A /* PVParkMapViewController.m */,
+				076BEE5D167EC67100ACF08A /* PVMapOptionsViewController.h */,
+				076BEE5E167EC67200ACF08A /* PVMapOptionsViewController.m */,
+				07866AC1165EE2B400D7BB3A /* PVAppDelegate.h */,
+				07866AC2165EE2B400D7BB3A /* PVAppDelegate.m */,
+				186DF3281D154703008BFE35 /* menu.png */,
+				186DF32D1D1564E4008BFE35 /* mapButton.png */,
+				186DF3311D15814D008BFE35 /* weButton.png */,
+				186DF32F1D156A37008BFE35 /* stationButton.png */,
+				186DF33B1D15D199008BFE35 /* statusButton.png */,
+				186DF3331D15839E008BFE35 /* icon.png */,
+				186DF33D1D15DA6F008BFE35 /* Title.png */,
+				186DF3431D1607C6008BFE35 /* arrow.png */,
+				186DF3351D158D8E008BFE35 /* positionButton.png */,
+				186DF3411D15EC25008BFE35 /* Icon-Small@2x.png */,
+				186DF33F1D15E1A9008BFE35 /* AppIcon.appiconset */,
+				186DF3391D15CB2C008BFE35 /* Images.xcassets */,
+				07866AB9165EE2B400D7BB3A /* Supporting Files */,
+			);
+			path = "Park View";
+			sourceTree = "<group>";
+		};
+		07866AB9165EE2B400D7BB3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07866ABA165EE2B400D7BB3A /* Park View-Info.plist */,
+				07866ABB165EE2B400D7BB3A /* InfoPlist.strings */,
+				07866ABE165EE2B400D7BB3A /* main.m */,
+				07866AC0165EE2B400D7BB3A /* Park View-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07866ADF165EE2B400D7BB3A /* Park ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				07866AE5165EE2B400D7BB3A /* Park_ViewTests.h */,
+				07866AE6165EE2B400D7BB3A /* Park_ViewTests.m */,
+				07866AE0165EE2B400D7BB3A /* Supporting Files */,
+			);
+			path = "Park ViewTests";
+			sourceTree = "<group>";
+		};
+		07866AE0165EE2B400D7BB3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07866AE1165EE2B400D7BB3A /* Park ViewTests-Info.plist */,
+				07866AE2165EE2B400D7BB3A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07866AAD165EE2B400D7BB3A /* Park View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07866AEA165EE2B400D7BB3A /* Build configuration list for PBXNativeTarget "Park View" */;
+			buildPhases = (
+				07866AAA165EE2B400D7BB3A /* Sources */,
+				07866AAB165EE2B400D7BB3A /* Frameworks */,
+				07866AAC165EE2B400D7BB3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Park View";
+			productName = "Park View";
+			productReference = 07866AAE165EE2B400D7BB3A /* Park View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07866AD7165EE2B400D7BB3A /* Park ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07866AED165EE2B400D7BB3A /* Build configuration list for PBXNativeTarget "Park ViewTests" */;
+			buildPhases = (
+				07866AD3165EE2B400D7BB3A /* Sources */,
+				07866AD4165EE2B400D7BB3A /* Frameworks */,
+				07866AD5165EE2B400D7BB3A /* Resources */,
+				07866AD6165EE2B400D7BB3A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07866ADE165EE2B400D7BB3A /* PBXTargetDependency */,
+			);
+			name = "Park ViewTests";
+			productName = "Park ViewTests";
+			productReference = 07866AD8165EE2B400D7BB3A /* Park View.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07866AA5165EE2B400D7BB3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PV;
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Chris Wagner";
+				TargetAttributes = {
+					07866AAD165EE2B400D7BB3A = {
+						DevelopmentTeam = W4GD9CTSCM;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 07866AA8165EE2B400D7BB3A /* Build configuration list for PBXProject "Park View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07866AA3165EE2B400D7BB3A;
+			productRefGroup = 07866AAF165EE2B400D7BB3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07866AAD165EE2B400D7BB3A /* Park View */,
+				07866AD7165EE2B400D7BB3A /* Park ViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07866AAC165EE2B400D7BB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07866ABD165EE2B400D7BB3A /* InfoPlist.strings in Resources */,
+				186DF3441D1607C6008BFE35 /* arrow.png in Resources */,
+				186DF33A1D15CB2C008BFE35 /* Images.xcassets in Resources */,
+				186DF33C1D15D199008BFE35 /* statusButton.png in Resources */,
+				186DF32E1D1564E4008BFE35 /* mapButton.png in Resources */,
+				186DF3291D154703008BFE35 /* menu.png in Resources */,
+				186DF3321D15814D008BFE35 /* weButton.png in Resources */,
+				186DF3361D158D8E008BFE35 /* positionButton.png in Resources */,
+				186DF3341D15839E008BFE35 /* icon.png in Resources */,
+				186DF32C1D1548C8008BFE35 /* MainStoryboard_iPhone.storyboard in Resources */,
+				186DF3421D15EC25008BFE35 /* Icon-Small@2x.png in Resources */,
+				186DF3401D15E1A9008BFE35 /* AppIcon.appiconset in Resources */,
+				07866ACF165EE2B400D7BB3A /* MainStoryboard_iPad.storyboard in Resources */,
+				186DF3461D160A55008BFE35 /* Launch Screen.storyboard in Resources */,
+				186DF33E1D15DA6F008BFE35 /* Title.png in Resources */,
+				186DF3301D156A37008BFE35 /* stationButton.png in Resources */,
+				D3D60AEB1953281800BED91B /* CoordSize.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07866AD5165EE2B400D7BB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07866AE4165EE2B400D7BB3A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07866AD6165EE2B400D7BB3A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07866AAA165EE2B400D7BB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07866ABF165EE2B400D7BB3A /* main.m in Sources */,
+				D3D60ADD19531EE800BED91B /* PVParkMapOverlayView.m in Sources */,
+				D3D60AD719531B1100BED91B /* PVPark.m in Sources */,
+				07866AC3165EE2B400D7BB3A /* PVAppDelegate.m in Sources */,
+				07A98C031663F4E400D49A7A /* PVParkMapViewController.m in Sources */,
+				D3D60B0A19532D9400BED91B /* PVCharacter.m in Sources */,
+				D3D60AE41953274900BED91B /* PVAttractionAnnotation.m in Sources */,
+				D3D60AFF195328E900BED91B /* PVAttractionAnnotationView.m in Sources */,
+				076BEE5F167EC67300ACF08A /* PVMapOptionsViewController.m in Sources */,
+				D3D60ADA19531EB800BED91B /* PVParkMapOverlay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07866AD3165EE2B400D7BB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07866AE7165EE2B400D7BB3A /* Park_ViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07866ADE165EE2B400D7BB3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07866AAD165EE2B400D7BB3A /* Park View */;
+			targetProxy = 07866ADD165EE2B400D7BB3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07866ABB165EE2B400D7BB3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07866ABC165EE2B400D7BB3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07866ACD165EE2B400D7BB3A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07866ACE165EE2B400D7BB3A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		07866AE2165EE2B400D7BB3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07866AE3165EE2B400D7BB3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		186DF32A1D1548C8008BFE35 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186DF32B1D1548C8008BFE35 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07866AE8165EE2B400D7BB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07866AE9165EE2B400D7BB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07866AEB165EE2B400D7BB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Park View/Park View-Prefix.pch";
+				INFOPLIST_FILE = "Park View/Park View-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.JugendHackt;
+				PRODUCT_NAME = "Park View";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07866AEC165EE2B400D7BB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Park View/Park View-Prefix.pch";
+				INFOPLIST_FILE = "Park View/Park View-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.JugendHackt;
+				PRODUCT_NAME = "Park View";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07866AEE165EE2B400D7BB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Park View.app/Park View";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Park View/Park View-Prefix.pch";
+				INFOPLIST_FILE = "Park ViewTests/Park ViewTests-Info.plist";
+				PRODUCT_NAME = "Park View";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		07866AEF165EE2B400D7BB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Park View.app/Park View";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Park View/Park View-Prefix.pch";
+				INFOPLIST_FILE = "Park ViewTests/Park ViewTests-Info.plist";
+				PRODUCT_NAME = "Park View";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07866AA8165EE2B400D7BB3A /* Build configuration list for PBXProject "Park View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07866AE8165EE2B400D7BB3A /* Debug */,
+				07866AE9165EE2B400D7BB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07866AEA165EE2B400D7BB3A /* Build configuration list for PBXNativeTarget "Park View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07866AEB165EE2B400D7BB3A /* Debug */,
+				07866AEC165EE2B400D7BB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07866AED165EE2B400D7BB3A /* Build configuration list for PBXNativeTarget "Park ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07866AEE165EE2B400D7BB3A /* Debug */,
+				07866AEF165EE2B400D7BB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07866AA5165EE2B400D7BB3A /* Project object */;
+}
