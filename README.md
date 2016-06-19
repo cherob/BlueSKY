@@ -1,2 +1,2 @@
 # BlueSky-Backend
-Hier finden sich alle Dateien zum PHP-Bakend
+Hier finden sich alle Dateien zum PHP-Backend
